@@ -18,11 +18,11 @@ var L08_Herbst;
         drawMountains({ x: 0, y: 200 });
         drawLawn();
         for (let index = 0; index < 5; index++) {
-            drawTrees({ x: Math.random() * 200, y: 200 + Math.random() * 200 });
-            drawTrees({ x: 600 + Math.random() * 400, y: 200 + Math.random() * 200 });
+            drawTrees({ x: 200 - 50 * index, y: 300 + 50 * index });
+            drawTrees({ x: 780 + 50 * index, y: 300 + 50 * index });
         }
         for (let index = 0; index < 3; index++) {
-            drawSquirrel({ x: Math.random() * 900, y: 450 + Math.random() * 100 });
+            drawSquirrel({ x: Math.random() * 900, y: 350 + Math.random() * 100 });
         }
         for (let index = 0; index < 4; index++) {
             let scaleNumber = 0.3 + Math.random();
@@ -251,7 +251,7 @@ var L08_Herbst;
     }
     function drawLawn() {
         crc2.strokeStyle = "black";
-        crc2.fillStyle = "#3C6638";
+        crc2.fillStyle = "#3C4523";
         crc2.resetTransform();
         crc2.beginPath();
         crc2.moveTo(0, 200);
@@ -316,7 +316,7 @@ var L08_Herbst;
         crc2.resetTransform();
         crc2.translate(_position.x, _position.y);
         crc2.restore();
-        crc2.fillStyle = "#95CA34";
+        crc2.fillStyle = "#95CA74";
         crc2.strokeStyle = "black";
         console.log("Ginko at", _position);
         crc2.scale(_scale.x, _scale.y);

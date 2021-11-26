@@ -30,14 +30,14 @@ namespace L08_Herbst {
 
         for (let index: number = 0; index < 5; index++) {
             
-            drawTrees({ x: Math.random() * 200, y: 200 + Math.random() * 200 });
-            drawTrees({ x: 600 + Math.random() * 400, y: 200 + Math.random() * 200 });
+            drawTrees({ x: 200 - 50 * index , y: 300 + 50 * index});
+            drawTrees({ x: 780 + 50 * index, y: 300 + 50 * index});
         }
         
 
         for (let index: number = 0; index < 3; index++) {
             
-            drawSquirrel({ x: Math.random() * 900, y: 450 + Math.random() * 100 });
+            drawSquirrel({ x: Math.random() * 900, y: 350 + Math.random() * 100 });
                       
         }
    
@@ -348,7 +348,7 @@ namespace L08_Herbst {
 
     function drawLawn(): void {
         crc2.strokeStyle = "black";
-        crc2.fillStyle = "#3C6638";
+        crc2.fillStyle = "#3C4523";
 
         crc2.resetTransform();
 
@@ -440,7 +440,7 @@ namespace L08_Herbst {
         crc2.resetTransform();
         crc2.translate(_position.x, _position.y);
         crc2.restore();
-        crc2.fillStyle = "#95CA34";
+        crc2.fillStyle = "#95CA74";
         crc2.strokeStyle = "black";
         console.log("Ginko at", _position);
         crc2.scale(_scale.x, _scale.y);
