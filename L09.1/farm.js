@@ -19,7 +19,7 @@ var L09_Farm;
         }
         console.log(canvas);
         crc2 = canvas.getContext("2d");
-        //console.log(crc2);
+        console.log(crc2);
         createAnimals();
         singAnimals();
         feedAnimals();
