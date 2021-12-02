@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    background-image: url("https://raw.githubusercontent.com/fionavi/EIA2-WS-21-22/main/L09.1/Media/farm.jpg");
     color: lavender;
 }
 
@@ -8,6 +9,7 @@ body {
     text-align: center;
     font-size: small;
 }
+
 
 canvas{
   float: center;
