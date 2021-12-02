@@ -1,4 +1,5 @@
 "use strict";
+// Zusammenarbeit mit Marta Shamrai
 var L09_Farm;
 (function (L09_Farm) {
     let crc2;

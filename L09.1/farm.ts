@@ -1,3 +1,5 @@
+// Zusammenarbeit mit Marta Shamrai
+
 namespace L09_Farm {
 
     let crc2: CanvasRenderingContext2D;
