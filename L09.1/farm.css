@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    background-image: url("https://raw.githubusercontent.com/fionavi/EIA2-WS-21-22/main/L09.1/Media/farm.jpg");
     color: lavender;
 }
 
@@ -12,11 +11,19 @@ body {
 
 
 canvas{
-  float: center;
-  margin-left: 20%;
-/*   margin-right: 30%;
- */  margin-top: 3%;
-  width: 60%; /* The width is 50%, by default */
+/*     background-image: url("https://raw.githubusercontent.com/fionavi/EIA2-WS-21-22/main/L09.1/Media/farm3.jpg");
+ */
+    float: center;
+  
+    margin-left: 7%;
+
+ 
+}
+
+div#cow {
+background-color: aqua;
+width: 100px;
+height: 100px;
 }
 
 /* Use a media query to add a breakpoint at 800px: */
