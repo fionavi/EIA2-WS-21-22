@@ -1,14 +1,18 @@
 body {
-    background-color: black;
-    color: lavender;
+    background-color: rgb(82, 220, 230);
+   
 }
 
-#h {
-    font-family:'Courier New', Courier, monospace;
-    text-align: center;
-    font-size: small;
-}
 
+#day{
+    margin-left: 38%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: red;
+    color:white;
+    width: 130px;
+    height: 30px;
+}
 
 canvas{
 /*     background-image: url("https://raw.githubusercontent.com/fionavi/EIA2-WS-21-22/main/L09.1/Media/farm3.jpg");
@@ -26,64 +30,81 @@ canvas{
 }
 
 #storage{
+    background-image: url("https://raw.githubusercontent.com/fionavi/EIA2-WS-21-22/main/L09.1/Media/cow.jpg");
+
+
     float: center;
-    margin-left: 500px;
+    padding: 50px;
+    margin-left: 450px;
     margin-bottom: 50px;
     width: 300px;
-    height: 200px;
-    background-color: red;
+    height: 260px;
+    background-color: black;
+    text-align: center;
+    color: red;
+    font-size: large;
+    font-weight: bolder;
 }
 
 #cow {
+    background-color: rgb(37, 37, 37);
     float:left;
     margin-left: 10px;
     width:200px;
-    height: 150px;
-    background-color: grey;
-    color: brown;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+
 }
 
 #dog {
     float:left;
     margin-left: 45px;
     width:200px;
-    height: 150px;   
-    background-color: chocolate;
-    color: brown;
+    padding: 10px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: larger;
+
 }
 
 #cat {
     float:left;
     margin-left: 45px;
+    padding: 10px;
     width:200px;
-    height: 150px;
-    background-color: orange;
-    color: brown;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: larger;
+
 }
 
 #chicken {
     float:left;
     margin-left: 45px;
+    padding: 10px;
     width:200px;
-    height: 150px;
-    background-color: ghostwhite;
-    color: brown;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: larger;
+
 }
 
 #sheep {
     float:left;
     margin-left: 45px;
+    padding: 10px;
     width: 200px;
-    height: 150px;
-    background-color: lightgrey;
-    color: brown;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-size: larger;
+
 }
 
-/* 
+
 /* Use a media query to add a breakpoint at 800px: */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   body, canvas {
     width: 80%;
   }
-} */
-
+}
