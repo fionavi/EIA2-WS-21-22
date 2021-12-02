@@ -11,8 +11,8 @@ body {
 
 
 canvas{
-    background-image: url("https://raw.githubusercontent.com/fionavi/EIA2-WS-21-22/main/L09.1/Media/farm3.jpg");
-
+/*     background-image: url("https://raw.githubusercontent.com/fionavi/EIA2-WS-21-22/main/L09.1/Media/farm3.jpg");
+ */
     float: center;
   
     margin-left: 7%;
@@ -79,11 +79,11 @@ canvas{
     color: brown;
 }
 
-
+/* 
 /* Use a media query to add a breakpoint at 800px: */
 @media screen and (max-width: 800px) {
   body, canvas {
     width: 80%;
   }
-}
+} */
 
