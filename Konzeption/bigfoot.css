@@ -1,0 +1,84 @@
+
+  body {
+      background-color: black;
+      background-size: cover;
+      margin: 0;
+      color: white;
+      font-family: 'Courier New', Courier, monospace;
+      }
+  
+  #container {
+      display: flex;
+      min-height: 100vh;
+  }
+  
+  
+  p {
+      font-size: large;
+      margin: auto;
+  }
+  
+  .content {
+      text-align: center;
+      margin: auto;
+  }
+  
+  
+  img {
+      width: 50%;
+      height: auto;
+  }
+  .logo {
+      width: 20em;
+  }
+  
+  a {
+      color: #19b476;
+      text-decoration: none;
+     }
+  
+  a:hover {
+      color: #117719;  
+  }
+  
+
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    flex-direction:column;
+ justify-content:center;
+ text-align:center; }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  
+
+  
+}
