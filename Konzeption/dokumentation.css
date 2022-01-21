@@ -1,5 +1,5 @@
 
-  body {
+body {
     background-color: black;
     background-size: cover;
     margin: 0;
@@ -10,6 +10,55 @@
 #container {
     display: flex;
     min-height: 100vh;
+}
+
+ul {
+  position: sticky;
+  top: 0;  
+
+}
+
+li a {
+
+  color: white;
+  background-color:black;
+  text-decoration: none;
+  display: block;
+  padding: 5px;  
+}
+
+
+li a:active {
+  color: rgb(7, 143, 153);
+}
+
+.navi {
+  padding: 5px;
+  margin: 5px;
+  position: fixed;
+  right: 15px;
+  left: 1270px;
+  top: 0;
+  width: 218px;
+  border: solid;
+  border-radius: 15px 15px 15px 15px;
+  text-align: center;
+  background-color: black;
+  z-index : 2;
+
+ 
+  display: block;
+  
+}
+
+
+.navi li b{
+  color: white;
+  font-family: sans-serif;
+}
+
+li a:hover {
+  color: rgb(7, 143, 153);
 }
 
 
