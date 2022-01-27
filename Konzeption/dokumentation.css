@@ -12,12 +12,13 @@ body {
     min-height: 100vh;
 }
 
+h2 {
+  font-size: 50px;
+}
 ul {
   position: sticky;
   top: 0;  
   list-style-type: none;
-  
-
 }
 
 li a {
@@ -71,7 +72,10 @@ li a:hover {
 
 p {
     font-size: large;
-    margin: auto;
+   
+    justify-content: justify;
+
+
 }
 
 .content {
@@ -86,6 +90,10 @@ img {
 }
 .logo {
     width: 20em;
+}
+
+.logo2 {
+  width: 10px;
 }
 
 a {
@@ -105,6 +113,8 @@ a:hover {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
   text-align: center;
 }
 
@@ -112,9 +122,10 @@ a:hover {
 .column {
   flex: 25%;
   flex-direction:column;
-justify-content:center;
-text-align:center; }
-
+justify-content:justify;
+text-align:justify; 
+margin: 20px;
+}
 .column img {
   margin-top: 8px;
   margin-left: 8px;
