@@ -126,6 +126,12 @@ justify-content:justify;
 text-align:justify; 
 margin: 20px;
 }
+
+#wireframe{
+  margin-left: 25%;
+  height: 500px;
+  width: 333px;
+}
 .column img {
   margin-top: 8px;
   margin-left: 8px;
